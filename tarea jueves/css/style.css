@@ -1,0 +1,140 @@
+*{
+	font-family: rockwell;
+}
+
+body{
+	background-repeat:no-repeat;
+	background-size: 2500px;
+}
+.Titulo img{
+	width: 200px;
+	height: 200px;
+}
+.Titulo h1{
+	
+	text-align: center;
+	font-size:50px; 
+
+}
+.Menu{
+	text-align: center;
+}
+.Menu li{
+	display: inline;
+}
+.Menu a{
+	margin: 3%;
+	color:black;
+	display: inline-block;
+	text-decoration: none;
+	width: 60px;
+	height: 15px;
+	border: 10px outset #cccccc; 
+   	background-color: #cccccc; 
+   	padding: 2%;
+
+}
+.Menu li:hover a{
+	background-color: #EE0909;
+}
+li.activo a{
+	background-color: #33D622;
+}
+ul{
+	list-style: none;
+}
+.Social{
+	padding: 3%;
+	vertical-align:text-bottom;
+	text-align: right;
+	
+}
+.Social li{
+	
+	margin: 2%;
+	
+
+}
+.Social a{
+
+	background: yellow;
+	font-size: 20px;
+	color:black;
+	text-decoration: none;
+	padding: 1%;
+
+}
+.info{
+	text-align: center;
+	align-content: center;
+}
+.Info p{
+	color: black;
+	font-size: 40px;
+}
+.Info h4{
+	color: #444040;
+	font-size: 30px;
+}
+
+.Secu img{
+	height: 200px;
+	width: 200px;
+}
+
+.prepa img{
+	height: 200px;
+	width: 200px;
+
+}
+
+.Uni img{
+	height: 200px;
+	width: 200px;
+
+}
+
+.Secu p{
+	font-size: 20px;
+	color: black;
+
+}font-size: 20px;
+	color: black;
+.prepa p{
+	font-size: 20px;
+	color: black;
+}
+.Uni{
+	font-size: 20px;
+	color: black;
+}
+.Cine p{
+	text-align: left;
+	font-size: 25px;
+	color:white;
+}
+.Cine img{
+	height:200px;
+	width: 200px;
+	text-align: right;
+}
+.TN p{
+	text-align: left;
+	font-size: 25px;
+	color:white;
+}
+.TN img{
+	height:200px;
+	width: 200px;
+	text-align: right;
+}
+.Gui p{
+	text-align: left;
+	font-size: 25px;
+	color:white;
+}
+.Gui img{
+	height:200px;
+	width: 200px;
+	text-align: right;
+}
