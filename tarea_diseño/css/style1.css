@@ -1,0 +1,38 @@
+p>span{
+	color:red;
+	font-size: 20px;
+		
+
+}
+body{
+	align-content: bottom;
+	background-repeat:no-repeat;
+	background-size: 2000px;
+}
+h4{ color: yellow; }
+h4+h3{
+	margin-left: 40px;
+	background: green;
+}
+a[href]{
+	color:brown;
+}
+div{
+	
+	width: 200px;
+	background-color: orange;
+	float:center;
+}
+.border{
+	background.color:gray;
+	border:10px dotted gold;
+	position: fixed;
+}
+.padding{
+	padding: 20px 20px;
+	background-color: yellow;
+}
+.margin{
+	background-color: blue;
+	padding: 20px 40px 60px;
+}
