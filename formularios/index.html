@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!--la etiqueta form es para los formularios-->
+	<form >
+		<h3 class="Ldat">Llena tus datos</h3>
+		<!--Los input son elementos de formuario
+			text: ingresa texto sin forma específica.-->
+		<span>Nombre: </span> <input type="text">
+		<br>
+		<span>Apellido: </span> <input type="text">
+		<br>
+		<span>Ingrese contraseña</span> <input type="password">
+		<br>
+		<span>Género:</span>
+		<div>
+			<input type="radio" value="Femenino" name="genero"> <span>Femenino</span>
+			<input type="radio" value="masculino" name="genero"> <span>Masculino</span> <br>
+		</div>
+		<span>Incuir mi foto de perfil</span><input type="file" name="foto" accept=".jpg"> <br>
+		<span>Acepto los términos y condiciones</span>
+		<input type="checkbox" name="Términos">
+		<input type="reset" name="Limpiar" value="Borrar Datos">
+		<input type="submit" name="ENVIAR"> <br>
+	</form>
+	<div class="footer">
+		<h4>SOCIAL</h4>
+		<span><a href="">Twitter</a></span>
+		<span><a href="">Facebook</a></span>
+	</div>
+</body>
+</html>

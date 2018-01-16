@@ -1,0 +1,22 @@
+body{
+	text-align: center;
+	background-color: #EDE7E7;
+}
+.Ldat{
+	background-color: black;
+	color: white;
+}
+
+body span{
+	background-color:#595656 ;
+	color: white;
+}
+
+.footer{
+	background-color: #889BA7;
+
+}
+.footer>span{
+	background-color:white;
+	
+}
