@@ -1,0 +1,47 @@
+.rectangulo1{
+	width: 50px;
+	height: 100px;
+	background-color: rgba(150, 90, 100,0.7);
+    border: 1px solid black;
+	transform: translate(100px, 100px);
+}
+.rectangulo2{
+	width: 100px;
+	height: 40px;
+	background-color: rgba(150, 90, 100,0.7);
+    border: 1px solid black;
+	transform: translate(50px, 100px);
+
+}
+
+.Trian{
+	width: 0px;
+    height: 0px;
+    margin-left: 20px;
+    border-right: 100px solid transparent;
+    border-top:100px solid transparent; 
+    border-left:100px solid transparent;
+    border-bottom: 100px solid #EA7070;
+	transform: translate(180px,-100px);
+}
+
+
+.Trian2{
+	width: 0px;
+    height: 0px;
+    margin-left: 20px;
+    border-right: 100px solid transparent;
+    border-top:100px solid red; 
+    border-left:100px solid transparent;
+    border-bottom: 100px solid #transparent;
+	transform: translate(350px,-190px);	
+}
+
+
+.Rect3{
+	width: 50px;
+    height: 100px;
+    background-color: rgba(150, 90, 100,0.7);
+    border: 1px solid black;
+    transform: translate(600px,-300px);	
+}
